@@ -1,0 +1,142 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+
+  .header{
+    color:rgb(64, 110, 196);
+  }
+  
+  .crossword table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  .crossword{
+    display:flex;
+  }
+  
+  .crossword td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .crossword .empty {
+    background-color: #f0f0f0;
+  }
+  
+  .crossword .active {
+    background-color: #e0e0e0;
+  }
+  
+  .crossword .filled {
+    background-color: #c0c0c0;
+  }
+  
+  
+  .blackedout {
+      background-color: black;
+    }
+  
+    .crossword-board--labels {
+      position: absolute;
+      z-index: 60;
+    }
+    .crossword-board__item-label {
+      position: absolute;
+    }
+    .crossword-board__item-label-text {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      font-size: 14px;
+      line-height: 1;
+    }
+  
+    
+    .crossword-board__item-label--1 {
+      grid-column: 1/1;
+      position:absolute;
+    }
+  
+
+  .correct {
+    background-color: green;
+  }
+
+.crossword-clues__list-item--across-1{
+  position:left;
+}
+
+.crossword-clues{
+  text-align: left;
+}
+
+.crossword-clues__list-title{
+  font-weight: bold;
+  text-decoration: underline;
+} */
+
+
+
+
+
+.crossword-clues__list-title{
+  font-weight: bold;
+  text-decoration: underline;
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.header {
+  text-align: center;
+  color: #4e4eb4;  
+  margin-top: 30px;
+}
+
+.subheader {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+  color: #4e4eb4;
+}
+
+.crossword {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+.blackedout {
+  background-color: #000;
+}
+
+.empty {
+  background-color: #fff;
+}
