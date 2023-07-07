@@ -1,6 +1,6 @@
 const crosswordTable = document.querySelector(".crossword table");
 let activeCell = null;
-let counter = 99; // Total is 100
+let counter = 0; // Total is 100
 
 // Define the desired cells and letters using arrays
 const desiredCells = [];
