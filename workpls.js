@@ -45,7 +45,7 @@ function checkDesiredCells() {
     }
   }
   
-  if (counter == 100){
+  if (counter == 96){
     window.alert("Congrats! You win");
     window.open("https://docs.google.com/document/d/1azcmZaRkmIKNkjyV8p7yg7jRZea7Pg1IclUPh2gH67g/edit?usp=sharing");
   }
